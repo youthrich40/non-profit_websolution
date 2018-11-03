@@ -90,3 +90,15 @@
   });
 
 })(jQuery); // End of use strict
+
+//Saejong - Parallax Scrolling effect for banner img
+
+$(window).scroll(function(){
+    parallax();
+});
+
+function parallax(){
+    var wScroll = $(window).scrollTop();
+    
+    $('.masthead').css('background-position', 'center ' + +(wScroll) + 'px');
+}

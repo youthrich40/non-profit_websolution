@@ -17,21 +17,22 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #8B008B;
+  border-color: #E4E1DC;
 }
 
 hr.light {
-  border-color: #8B008B;
+  border-color: #E4E1DC;
 }
 
 a {
-  color: #8B008B;
+  color: #0076A3;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #8B008B;
+  color: #009FDF;
+    text-decoration: none;
 }
 
 h1,
@@ -44,11 +45,11 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #8B008B !important;
+  background-color: #009FDF !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #009FDF !important;
 }
 
 .text-faded {
@@ -92,7 +93,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #FFFFFF;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -182,6 +183,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
 
 header.masthead hr {
   margin-top: 30px;
@@ -304,13 +306,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #8B008B;
-  border-color: #8B008B;
+  background-color: #009FDF;
+  border-color: #44C8F5;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #8B008B !important;
+  background-color: #44C8F5 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
